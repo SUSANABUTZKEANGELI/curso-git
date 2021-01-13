@@ -11,6 +11,8 @@ namespace _30Funcoes
             int n2 = int.Parse(Console.ReadLine());
             int n3 = int.Parse(Console.ReadLine());   // marcar um breakpoint - F9 - F5 para iniciar
 
+            Console.WriteLine();
+
             if (n1 > n2 && n1 > n3)
             {
                 Console.WriteLine("Maior = " + n1);
